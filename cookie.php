@@ -10,5 +10,8 @@ if(!isset($_COOKIE["user"])) {
     echo "<br/>Cookie Value: " . $_COOKIE["user"];  
 }  
 ?>  
+<?
+echo "new line added";
+1?>
 </body>  
 </html>  
